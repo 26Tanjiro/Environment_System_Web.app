@@ -1,12 +1,43 @@
-# React + Vite
+# 🌿 Environment Monitor Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive React dashboard that visualizes environmental sensor data such as **Temperature**, **Humidity**, **CO₂ levels**, and **Light Intensity**. Includes an intuitive toggle **switch** to simulate turning the system ON or OFF.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Demo
 
-## Expanding the ESLint configuration
+![dashboard-preview](preview.png) <!-- Add your actual image path or link -->
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+- 📊 Sensor cards for temperature, humidity, CO₂, and light
+- 🎛️ Toggle switch for system ON/OFF control
+- 🎨 Dynamic card color based on system state
+- 🧠 Uses `useState` for interactive UI state management
+- 📋 Console logs to track system toggles
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** (Functional Components + Hooks)
+- **CSS** (custom styling and responsive layout)
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/environment-monitor-dashboard.git
+
+# Navigate to the folder
+cd environment-monitor-dashboard
+
+# Install dependencies
+npm install
+
+# Run the app
+npm start
