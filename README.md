@@ -4,11 +4,6 @@ A simple and responsive React dashboard that visualizes environmental sensor dat
 
 ---
 
-## 📸 Demo
-
-![dashboard-preview](preview.png) <!-- Add your actual image path or link -->
-
----
 
 ## 🚀 Features
 
